@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Stun League</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="menuNav">
+          <img class="logo" src="./img/logo.png" alt="logo" />
+          <a href="">Campeonatos</a>
+          <a href="">Planos TeamSpeak 3</a>
+          <a href="">PinCode's</a>
+        </div>
+
+        <div class="account">
+          <a href="">Login</a>
+          <a href="">Registrar</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <div class="ntxCamp">
+          <h3>Campeonatos em breve:</h3>
+          <div class="bar"></div>
+          <div class="cardCamp">
+            <div class="card">
+              <div class="imgGame">
+                <img src="./img/CF_Icon.png" alt="" />
+              </div>
+              <h3 class="titleCard">CrossFire</h3>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvdlesNwjAMhK+bwCTAJjAJMAkwCWwCm0A/VFdp5DxalD9EqiK1zt3Z57idGq+uMb5yBHdJ20oBL0lrLzZH8K4EtzAXK3yZUlwqoydkzCg8nFK8hICsvuc8AntnhLUE7rn/IjCTaTdM+qVErslGsOv7/7GQYC/pIukq6RCbbB8Bh2RJBiYScEgmXbSS9BxuzanfeVhWstS9MyEAInKCG7egZRGCWck8gmK81+NkcgzUpOYMcZSEnRhKexv2UUzuEoVEAFACAFgMQcxkmWduCUu3FBKAUlM1Cx6bnDIREgg2UdnO1im5qVvKID5b27pVHnjCmhEsHeXZX2aYQXOCnI/Zb3NNnk30AQkuQxkPNaPYAAAAAElFTkSuQmCC"
+                />
+                <p>R$ 800,00</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKNJREFUSEvdld0NgCAMhI9NdBMdxUkcxVF0FDdRm4gPkOZS/qLyRlr6caW0DpWXqxwfDHDcF9D8mL09YACwAOgSU7cDmABs/nwofb2MAslZAuk1gM9pDkDOPhcPFTQDsOrSFEZVpSn4DyCUbN1HH80agPlTgLVc3/fILAXMTlPEAjA7BXz/DYorKNGuZRaMWruWWTBnzAQ6cKwpof6pXZMG9g4nSPU0GR5tl/QAAAAASUVORK5CYII="
+                />
+                <p class="campData">05/06/2024</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAV9JREFUSEvFldFtwzAMRJlJkk6SdpK0kzSdpNmkySTJJq0eoBNoWqLdDyMGDCf2iccjj9LONr52G8e3NQSvZnY0M57cj/K81uet/h7mmREczOy7Bs2EQvhWCWe4EcFnQZ4rmgCXEkTZQoySfQn6Xr7xX5ivyNAj8MEhmS1yQQh+csnM8JGABfcaANnUes2Fop+q5MOviwSAAFMSgPH6rS8y5ZTrRQs9kHrS1AkgMGQE3hRNvSdQ7bO6ZwTkMovhCcgeFZSGEvWuJQL1gt6hYjJoNBeZ1I8yZQQjjEzSyuwVrCEQJhuuiUpPIAdl9iRDcBquOMEySnPhf5tM2TxJ7FfaZD8szceDXmi7iGZQFRqxV+B9PBq0bKrlwuag6CLJ11aR2TUSST3vJz3sjbwaBXhps/PD1cX3COIOqQPGHy5gOIS0XQ+TedqBoxqTqW4dm3zrqeoaYM2ZnDln8dvmBH8bW2MZsOAaVAAAAABJRU5ErkJggg=="
+                />
+                <p class="campHour">20:30</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARZJREFUSEvtlNsVATEQhv/thEpQCSpBJaiETugEnzOTE7u57GLP8SAvecjkv80kjUZezcj4+lmCW8t5Vui7DkYnyLVuImku6eAF7zjYGAhAVwMC8Chpb2drJxlCACAAqCwtSKc5B7lsAT/ZpbOk3UMpu0eyNOWULOzsWd52kCO4GBhRYD+1iG5rsWUdlC6iGHW+XEwsEpe4hQiXvR4aua9MeZgOSSkCjzKIidlr8WDbpwZxKQJ6Qpyh0d8m6BD3GVPP9WU6Mo0mSiINw9CHwC+1m5ziqDY51Qdy5SJ7mI4Eug/Dxw8NAH9o8EDs30f1oZW+gNhJqg5iHiFRhtWnB3G9fw2z6GsA2L+PDvFQgpLD5NmfoBrZHQ3pQxmnEFvgAAAAAElFTkSuQmCC"
+                />
+                <p class="countdown"></p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFZJREFUSEtjZKAxYKSx+QyjFhAMYVKD6D/URKL1Ea0QavCoBQTjbOgEEcylBL2EpgAj0eBKRTS3AJfLh04cjPoAHgKDriwiNV+M1miEQ4zUSCZsIpoKAFy0DhnDOA3uAAAAAElFTkSuQmCC"
+                />
+                <p>Mais Informações</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgGame">
+                <img src="./img/CF_Icon.png" alt="" />
+              </div>
+              <h3 class="titleCard">CrossFire</h3>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvdlesNwjAMhK+bwCTAJjAJMAkwCWwCm0A/VFdp5DxalD9EqiK1zt3Z57idGq+uMb5yBHdJ20oBL0lrLzZH8K4EtzAXK3yZUlwqoydkzCg8nFK8hICsvuc8AntnhLUE7rn/IjCTaTdM+qVErslGsOv7/7GQYC/pIukq6RCbbB8Bh2RJBiYScEgmXbSS9BxuzanfeVhWstS9MyEAInKCG7egZRGCWck8gmK81+NkcgzUpOYMcZSEnRhKexv2UUzuEoVEAFACAFgMQcxkmWduCUu3FBKAUlM1Cx6bnDIREgg2UdnO1im5qVvKID5b27pVHnjCmhEsHeXZX2aYQXOCnI/Zb3NNnk30AQkuQxkPNaPYAAAAAElFTkSuQmCC"
+                />
+                <p>R$ 800,00</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKNJREFUSEvdld0NgCAMhI9NdBMdxUkcxVF0FDdRm4gPkOZS/qLyRlr6caW0DpWXqxwfDHDcF9D8mL09YACwAOgSU7cDmABs/nwofb2MAslZAuk1gM9pDkDOPhcPFTQDsOrSFEZVpSn4DyCUbN1HH80agPlTgLVc3/fILAXMTlPEAjA7BXz/DYorKNGuZRaMWruWWTBnzAQ6cKwpof6pXZMG9g4nSPU0GR5tl/QAAAAASUVORK5CYII="
+                />
+                <p class="campData">05/06/2024</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAV9JREFUSEvFldFtwzAMRJlJkk6SdpK0kzSdpNmkySTJJq0eoBNoWqLdDyMGDCf2iccjj9LONr52G8e3NQSvZnY0M57cj/K81uet/h7mmREczOy7Bs2EQvhWCWe4EcFnQZ4rmgCXEkTZQoySfQn6Xr7xX5ivyNAj8MEhmS1yQQh+csnM8JGABfcaANnUes2Fop+q5MOviwSAAFMSgPH6rS8y5ZTrRQs9kHrS1AkgMGQE3hRNvSdQ7bO6ZwTkMovhCcgeFZSGEvWuJQL1gt6hYjJoNBeZ1I8yZQQjjEzSyuwVrCEQJhuuiUpPIAdl9iRDcBquOMEySnPhf5tM2TxJ7FfaZD8szceDXmi7iGZQFRqxV+B9PBq0bKrlwuag6CLJ11aR2TUSST3vJz3sjbwaBXhps/PD1cX3COIOqQPGHy5gOIS0XQ+TedqBoxqTqW4dm3zrqeoaYM2ZnDln8dvmBH8bW2MZsOAaVAAAAABJRU5ErkJggg=="
+                />
+                <p class="campHour">20:30</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARZJREFUSEvtlNsVATEQhv/thEpQCSpBJaiETugEnzOTE7u57GLP8SAvecjkv80kjUZezcj4+lmCW8t5Vui7DkYnyLVuImku6eAF7zjYGAhAVwMC8Chpb2drJxlCACAAqCwtSKc5B7lsAT/ZpbOk3UMpu0eyNOWULOzsWd52kCO4GBhRYD+1iG5rsWUdlC6iGHW+XEwsEpe4hQiXvR4aua9MeZgOSSkCjzKIidlr8WDbpwZxKQJ6Qpyh0d8m6BD3GVPP9WU6Mo0mSiINw9CHwC+1m5ziqDY51Qdy5SJ7mI4Eug/Dxw8NAH9o8EDs30f1oZW+gNhJqg5iHiFRhtWnB3G9fw2z6GsA2L+PDvFQgpLD5NmfoBrZHQ3pQxmnEFvgAAAAAElFTkSuQmCC"
+                />
+                <p class="countdown"></p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFZJREFUSEtjZKAxYKSx+QyjFhAMYVKD6D/URKL1Ea0QavCoBQTjbOgEEcylBL2EpgAj0eBKRTS3AJfLh04cjPoAHgKDriwiNV+M1miEQ4zUSCZsIpoKAFy0DhnDOA3uAAAAAElFTkSuQmCC"
+                />
+                <p>Mais Informações</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgGame">
+                <img src="./img/CF_Icon.png" alt="" />
+              </div>
+              <h3 class="titleCard">CrossFire</h3>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvdlesNwjAMhK+bwCTAJjAJMAkwCWwCm0A/VFdp5DxalD9EqiK1zt3Z57idGq+uMb5yBHdJ20oBL0lrLzZH8K4EtzAXK3yZUlwqoydkzCg8nFK8hICsvuc8AntnhLUE7rn/IjCTaTdM+qVErslGsOv7/7GQYC/pIukq6RCbbB8Bh2RJBiYScEgmXbSS9BxuzanfeVhWstS9MyEAInKCG7egZRGCWck8gmK81+NkcgzUpOYMcZSEnRhKexv2UUzuEoVEAFACAFgMQcxkmWduCUu3FBKAUlM1Cx6bnDIREgg2UdnO1im5qVvKID5b27pVHnjCmhEsHeXZX2aYQXOCnI/Zb3NNnk30AQkuQxkPNaPYAAAAAElFTkSuQmCC"
+                />
+                <p>R$ 800,00</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKNJREFUSEvdld0NgCAMhI9NdBMdxUkcxVF0FDdRm4gPkOZS/qLyRlr6caW0DpWXqxwfDHDcF9D8mL09YACwAOgSU7cDmABs/nwofb2MAslZAuk1gM9pDkDOPhcPFTQDsOrSFEZVpSn4DyCUbN1HH80agPlTgLVc3/fILAXMTlPEAjA7BXz/DYorKNGuZRaMWruWWTBnzAQ6cKwpof6pXZMG9g4nSPU0GR5tl/QAAAAASUVORK5CYII="
+                />
+                <p class="campData">05/11/2024</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAV9JREFUSEvFldFtwzAMRJlJkk6SdpK0kzSdpNmkySTJJq0eoBNoWqLdDyMGDCf2iccjj9LONr52G8e3NQSvZnY0M57cj/K81uet/h7mmREczOy7Bs2EQvhWCWe4EcFnQZ4rmgCXEkTZQoySfQn6Xr7xX5ivyNAj8MEhmS1yQQh+csnM8JGABfcaANnUes2Fop+q5MOviwSAAFMSgPH6rS8y5ZTrRQs9kHrS1AkgMGQE3hRNvSdQ7bO6ZwTkMovhCcgeFZSGEvWuJQL1gt6hYjJoNBeZ1I8yZQQjjEzSyuwVrCEQJhuuiUpPIAdl9iRDcBquOMEySnPhf5tM2TxJ7FfaZD8szceDXmi7iGZQFRqxV+B9PBq0bKrlwuag6CLJ11aR2TUSST3vJz3sjbwaBXhps/PD1cX3COIOqQPGHy5gOIS0XQ+TedqBoxqTqW4dm3zrqeoaYM2ZnDln8dvmBH8bW2MZsOAaVAAAAABJRU5ErkJggg=="
+                />
+                <p class="campHour">19:30</p>
+              </div>
+              <div class="cardItem">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARZJREFUSEvtlNsVATEQhv/thEpQCSpBJaiETugEnzOTE7u57GLP8SAvecjkv80kjUZezcj4+lmCW8t5Vui7DkYnyLVuImku6eAF7zjYGAhAVwMC8Chpb2drJxlCACAAqCwtSKc5B7lsAT/ZpbOk3UMpu0eyNOWULOzsWd52kCO4GBhRYD+1iG5rsWUdlC6iGHW+XEwsEpe4hQiXvR4aua9MeZgOSSkCjzKIidlr8WDbpwZxKQJ6Qpyh0d8m6BD3GVPP9WU6Mo0mSiINw9CHwC+1m5ziqDY51Qdy5SJ7mI4Eug/Dxw8NAH9o8EDs30f1oZW+gNhJqg5iHiFRhtWnB3G9fw2z6GsA2L+PDvFQgpLD5NmfoBrZHQ3pQxmnEFvgAAAAAElFTkSuQmCC"
+                />
+                <p class="countdown"></p>
+              </div>
+              <div class="cardItem">
+                <img
+                  class="cardIcon"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFZJREFUSEtjZKAxYKSx+QyjFhAMYVKD6D/URKL1Ea0QavCoBQTjbOgEEcylBL2EpgAj0eBKRTS3AJfLh04cjPoAHgKDriwiNV+M1miEQ4zUSCZsIpoKAFy0DhnDOA3uAAAAAElFTkSuQmCC"
+                />
+                <p>Mais Informações</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tsPlans">
+          <h3>TeamSpeak 3</h3>
+          <div class="bar"></div>
+          <div class="cardTS">
+            <ul class="card">
+              <li class="cardTSHeader">30 SLOTS/VAGAS</li>
+              <li>R$10,00<span>/mensal</span></li>
+              <li>30 Slots</li>
+              <li>Todos os Codecs</li>
+              <li>Painel de Controle pela Central do Cliente</li>
+              <li>Registros/Canais Ilimitados</li>
+              <li>DNS Personalizado</li>
+              <li>24/7 Suporte Online</li>
+              <button>Contrate</button>
+            </ul>
+            <ul class="card">
+              <li class="cardTSHeader">50 SLOTS/VAGAS</li>
+              <li>R$12,00<span>/mensal</span></li>
+              <li>50 Slots</li>
+              <li>Todos os Codecs</li>
+              <li>Painel de Controle pela Central do Cliente</li>
+              <li>Registros/Canais Ilimitados</li>
+              <li>DNS Personalizado</li>
+              <li>24/7 Suporte Online</li>
+              <button>Contrate</button>
+            </ul>
+            <ul class="card">
+              <li class="cardTSHeader">70 SLOTS/VAGAS</li>
+              <li>R$14,00<span>/mensal</span></li>
+              <li>70 Slots</li>
+              <li>Todos os Codecs</li>
+              <li>Painel de Controle pela Central do Cliente</li>
+              <li>Registros/Canais Ilimitados</li>
+              <li>DNS Personalizado</li>
+              <li>24/7 Suporte Online</li>
+              <button>Contrate</button>
+            </ul>
+          </div>
+        </div>
+        <div class="services">
+          <div class="servicesHeader">
+            <h3>Serviços</h3>
+            <p>
+              Abaixo os serviços fornecidos aos nossos clientes de forma padrão
+              para cada um de nossos planos.
+            </p>
+          </div>
+          <div class="bar"></div>
+          <div class="servicesGrid">
+            <div class="serviceCard">
+              <div class="serviceTitle">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVhJREFUSEu1lY1twjAUhB+blEmgk5ROAkwCnaRlEroJ8CGfdQQ7doKwhEJic9+9v7CIN6/Fm/VjKmAdEV8RwfXjdv2LiP+IONn3B89TAL9JuBb09w16HG72AHB6th8ihHMi2aXnRXH2egByjihCpGQTEYeKOHtKXRMg94guk2BLHHCOqBUBhxEkFfsEIF2AyTdCWg7Oey2AxHBPFCw6CDAQgV1cwLt2C3BJp4fnHEK+uWcB5JNT2gKUIpBDh/BM3cVvugHqoFobCkJ9yPs2RdBVg7Fu8XmiFjj2eWl2Ua+4g3xePh8q7ac6hojjGiRckyZSo0g0L3fZYZF7hmjgJ98Czc5LEeCEMNUR/uJyMEK4ZZF7Pj8pqie4R/DUAen0nHpkkAM8gtKEVt+YtZyVaqAoVEhN6CzxEoBnDinVY8zwaA18E+cr+yucJOqHW++i2cJjg/ayqAtcAWB2XRnGDvSdAAAAAElFTkSuQmCC"
+                />
+                <p>Painel de Controle</p>
+              </div>
+              <div>
+                Disponivel para os clientes de TeamSpeak 3, gerenciamento de,
+                Bans, Tokens entre outros pelo YetQa
+              </div>
+            </div>
+            <div class="serviceCard">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASBJREFUSEvFlIENwkAIRekmjqKTqJOok6iTqJs4in3N0ZzIcTTGeElTbT98+PwyyI/P8OP88leCtYg8yxU1GuJaHRzGjMeSlfu1QdTFWQKqOYvIypRMJ3sRuZfnWdzbDEi86wz9Ut5ncBT0RkDVtNwKJjlBWdxUizcD276VR5tM4SKb6iw2HdlCXIuA6pCLgyx04Z0uziOoradJPaumcDVBy3pKorPgv2dli5ssXRPgHqqy30AtDfNQF0U4ZJ0sbSVqWZBqCNoWtkf5bS2tuHlm0ZCRQYdsZbFyKU6/9LnrzDa9jSuC+XgHGU7RQuwRZNYHDoPEPT0CgtKLzWPIEGgc3UCGEcKqa6IlBNoN949hfiNRKzb1fGkHqaTfSLSY4AUdTEcZdq268AAAAABJRU5ErkJggg=="
+                />
+                <p>Trafégo Ilimitado</p>
+              </div>
+              <div>
+                Nossos clientes de TeamSpeak tem tráfego ilimitado assim não
+                precisam se procupar em falar e se usar tranquilamente o
+                serviço.
+              </div>
+            </div>
+            <div class="serviceCard">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPNJREFUSEvtlWEWwUAMhKc34SacBCfBSbgJN+Em+N5L+tLadreq/GB/eUl2ZjLZaKWJTzUxvvoIFpK2kmYmYinpar+JkaOGc5S0T4ntIuDiqXUB8M0D9CzpEoi9DAHkGqeLwAFc2epxa2cdALI2MAg9RxySIoKbVbkALKEjt4v03AiJIYgOiRUReAexbTynC/cc9Ry6OZQQ4DuFUWVqbrlYnFXjFWGBv4ocSC5f2xWH3PY9BTK45qME77SofrKxA9/csXPoHLJ73ufz4FxqkweDmLLkvT9B3JUfsmjMwj19E1Kv6NWFayyYD+erH/3cX3JR/g4A3UYZUS8PKAAAAABJRU5ErkJggg=="
+                />
+                <p>Endereço Personalizado</p>
+              </div>
+              <div>
+                Aos nossos clientes de TeamSpeak 3 oferecemos gratuitamente o
+                endereço personalizado onde se troca o Endereço numerico por um
+                nome.
+              </div>
+            </div>
+            <div class="serviceCard">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAE5JREFUSEtjZKAxYKSx+QyjFqCH8H+oADxkqB1EQ88CdBdT3QdDzwJCLqY4iIaeBaS6mOQgGnoWUOpigkE0asHABxHVq2hqVzgYDqS5BQDwTDcZfkSUIwAAAABJRU5ErkJggg=="
+                />
+                <p>99.9% Uptime Garantido</p>
+              </div>
+              <div>
+                Utilizado os melhores Datacenters do mundo garantimos um
+                excelente uptime de nossos servidores sendo assim raras as veses
+                em que está fora do ar.
+              </div>
+            </div>
+            <div class="serviceCard">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANJJREFUSEvtldERgkAMRJdOpBM7USsBKtFOtBPsBNgb4gSIw+WGjD/eLyQvu8nlKgSfKjg/NOAK4F4AfAN4AOisWA0YCpJLCCF1LsBrmxRmxlkK/oBFKyIs6vVURQDY9M9URQFoU8r9M8BpvtVnx+WTYhf3wlJwc64M+s01wXXBswuQohlAmOdQ8XMO+NoDfmdiqSgXsLbVBFAuk79U1tIluAFwVVuWNBOszZWh/tsACnKkEFpzMYo4DCCFrZUeDhA1nCKqCgFoy9IT6n1c3H0KB4zNozMZlT2OcAAAAABJRU5ErkJggg=="
+                />
+                <p>Suporte Técnico Inovador</p>
+              </div>
+              <div>
+                Esse e o destaque de nossa equipe contando com profissionais
+                qualificados está disponivel para todos os clientes via
+                Atendimento Online, WhatsApp, Central do Cliente e E-mail.
+              </div>
+            </div>
+            <div class="serviceCard">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASNJREFUSEu1ldkRwjAMRJVOoBOoBKgEqAQ6gU6gE8hjLCYRkpyDeIYPcuzTriynkYVXs7C+jAEcRWQjIqv2dxWR85DihgAQ3hfhruZzCCgDWGEVPJnKU5AHiIQ1klcQjQuygFvJGY2osgig3LuIbPWPBejLxBA1sQZA+6sbAdbFgZfGLMCj7BYsYvXvAO3BHEDaA3YQ+c/pAUN4iJrMpOIiW9HsqHvEgXyWfZhjgD5MAWjze5peNd1Z8EDRcBJrLx7PAddqLjLXP5sjyvNSDrghDtTxT/WRA3XBi7ixq1uUinOsMJzpw/Ym4h4EAPdwya5DnJ3jDmbte+BBdE4oKBXPIuq6AbJrL9jvQG9io31dc2BBxAIwjCRrWGW+pt0e42AS4Q1AE0MZYDlkxwAAAABJRU5ErkJggg=="
+                />
+                <p>Proteção Anti-DDOS</p>
+              </div>
+              <div>
+                A clientes de todos os planos nossos servidores são
+                completamente protegidos com podereções e complexas regras de
+                firewall e uma proteção avançada de rede.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footerItens">
+          <a href="">Campeonatos</a>
+          <a href="">Planos TeamSpeak 3</a>
+          <a href="">PinCodes's</a>
+        </div>
+        <div class="copy">
+          <img src="./img/logo.png" alt="" />
+          <p>Copyright © 2024 - StunHosting</p>
+          <p>E-Mail: stunleague@gmail.com</p>
+          <p>Todos os Direitos Reservados.</p>
+        </div>
+        <div class="footerPag">
+          Pagamento facilitado:
+          <img src="./img/pagamento.png" alt="" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
