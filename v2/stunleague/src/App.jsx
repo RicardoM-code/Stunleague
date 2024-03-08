@@ -1,4 +1,4 @@
-import Welcome from './components/Welcome'
+import Welcome from './components/Welcome.jsx'
 
 import './styles/App.sass'
 
