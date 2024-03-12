@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { CiMedal, CiPlay1, CiShoppingCart } from "react-icons/ci";
+import { IoMdClose, IoIosArrowForward } from "react-icons/io";
 import Hero from '../img/Hero.png';
 import imgWelcome from '../img/imgWelcome.png';
 import Header from "./Header";
+import Google from '../img/Google.png'
+import Discord from '../img/Discord.png'
 
 
 import '../styles/components/Welcome.sass';
@@ -53,9 +56,9 @@ function Welcome() {
             <div className="modalContainer">
                 <div className="modal">
                     <div>
-                        <span className="close" onClick={closeModal}>
-                            &times;
-                        </span>
+                        <div className="containerClose">
+                            <IoMdClose className="close" onClick={closeModal} />
+                        </div>
                         <p className="modalLogin">Login</p>
                         <div className="modalContent">
                             <div className="modalInputs">
@@ -63,8 +66,35 @@ function Welcome() {
                                     <p className="emailTxt">E-mail ou nome do usuário</p>
                                     <input className="emailInput" type="text" placeholder="Digite aqui" />
                                 </div>
+                                <div className="inputPassword">
+                                    <p className="passTxt">Senha</p>
+                                    <input className="passInput" type="text" placeholder="Digite aqui" />
+                                </div>
                             </div>
-
+                            <div className="use">
+                                <div className="useTxt">
+                                    <p>Utilizar</p>
+                                </div>
+                                <div className="useIcons">
+                                    <img className="googleIcon" src={Google} alt="Google Logo" />
+                                    <img className="discordIcon" src={Discord} alt="Discord Logo" />
+                                </div>
+                            </div>
+                            <div className="buttons">
+                                <button className="registerBtn">
+                                    <span className="registerBtnContent">
+                                        Cadastra-se
+                                    </span>
+                                </button>
+                                <button className="enterBtn">
+                                    <span className="enterBtnContent">
+                                        Entrar
+                                    </span>
+                                    <span className="enterBtnIcon">
+                                        <IoIosArrowForward />
+                                    </span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
