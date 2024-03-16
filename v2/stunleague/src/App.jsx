@@ -1,11 +1,11 @@
-import Welcome from './components/Welcome.jsx'
+import { Outlet } from 'react-router-dom'
 
 import './styles/App.sass'
 
 function App() {
   return (
     <div>
-      <Welcome/>
+      <Outlet/>
     </div>
   )
 }
