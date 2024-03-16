@@ -28,6 +28,10 @@ function Welcome() {
         setContent("register");
     }
 
+    const handleBackClick = () => {
+        setContent("login");
+    }
+
     return (
         <div>
             <Header/>
@@ -105,7 +109,7 @@ function Welcome() {
                                         </div>
                                     </div>
                                 ) : (
-                                    <RegisterForm />
+                                    <RegisterForm onBackClick={handleBackClick} />
                                 )}
                             </div>
                         </div>
