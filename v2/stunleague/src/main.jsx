@@ -4,8 +4,8 @@ import App from './App.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import Welcome from './components/Welcome.jsx'
-import Home from './components/Home.jsx'
+import Welcome from './routes/Welcome.jsx'
+import Home from './routes/Home.jsx'
 
 const router = createBrowserRouter ([
   {

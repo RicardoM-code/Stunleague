@@ -3,10 +3,10 @@ import { CiMedal, CiPlay1, CiShoppingCart } from "react-icons/ci";
 import { IoMdClose, IoIosArrowForward } from "react-icons/io";
 import Hero from '../img/Hero.png';
 import imgWelcome from '../img/imgWelcome.png';
-import Header from "./Header";
+import Header from "../components/Header";
 import Google from '../img/Google.png'
 import Discord from '../img/Discord.png'
-import RegisterForm from "./RegisterForm";
+import RegisterForm from "../components/RegisterForm";
 
 
 import '../styles/components/Welcome.sass';
