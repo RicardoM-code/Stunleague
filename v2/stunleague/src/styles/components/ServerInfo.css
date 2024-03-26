@@ -1,0 +1,38 @@
+.radioOptGroup {
+    display: flex;
+}
+
+.radioOpt {
+    margin-right: 0.5rem;
+}
+
+.radio {
+    display: none;
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    letter-spacing: .4px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.radioLabel::before {
+    content: '';
+    display: block;
+    height: 1.4rem;
+    width: 1.4rem;
+    box-sizing: border-box;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.radio:checked + .radioLabel::before {
+    background-color: red;
+ 
+}
