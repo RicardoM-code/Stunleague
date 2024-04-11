@@ -9,7 +9,7 @@ import Discord from '../img/Discord.png'
 import RegisterForm from "../components/RegisterForm";
 
 
-import '../styles/components/Welcome.sass';
+import '../styles/components/Welcome.sass'
 
 function Welcome() {
     const [isOpen, setIsOpen] = useState(false);
